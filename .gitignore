@@ -1,2 +1,8 @@
 # ignore all files in the results/ directory
 /results/
+
+# ignore IDE directory and files
+/.idea
+
+# ignore all .DS_store files
+.DS_Store
