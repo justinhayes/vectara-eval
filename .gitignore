@@ -1,5 +1,6 @@
 # ignore all files in the results/ directory
-#/results/*
+/results/**
+!/results/.placeholder
 
 # ignore IDE directory and files
 /.idea
