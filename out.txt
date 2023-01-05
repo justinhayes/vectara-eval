@@ -1,0 +1,784 @@
+{'num': 1, 'query': 'what are countries doing to reduce agricultural emissions?', 'matches': [{'file-num': '97', 'phrase': 'contribute to lowering on farm emissions'}, {'file-num': '97', 'phrase': 'part of reducing atmospheric emissions from agriculture'}, {'file-num': '9', 'phrase': 'agricultural practices leading to minimization of greenhouse'}, {'file-num': '64', 'phrase': 'above-mentioned measures reduce emissions in the agricultural sector'}]}
+Running 1. what are countries doing to reduce agricultural emissions?
+Checking match [97]: contribute to lowering on farm emissions
+  Response 1: [43]. Reduction of emissions from agricultural land;
+  Response 2: [97]. contribute to lowering on farm emissions.
+    Found file match for query 1 at 2
+      set nmoft3[0][1] to 1
+      set nmoft5[0][1] to 1
+      set nmoft10[0][1] to 1
+    Found file and phrase match for query 1 at 2
+  Response 3: [97]. emissions from agriculture.
+    Found file match for query 1 at 3
+      set nmoft3[0][2] to 1
+      set nmoft5[0][2] to 1
+      set nmoft10[0][2] to 1
+  Response 4: [97]. part of reducing atmospheric
+                                                  emissions from agriculture.
+    Found file match for query 1 at 4
+      set nmoft5[0][3] to 1
+      set nmoft10[0][3] to 1
+  Response 5: [56]. Action on agricultural emissions.
+  Response 6: [44]. Measures to reduce agricultural N2O emissions
+  Response 7: [9]. Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+  Response 8: [9]. Forests, Forestry and Agriculture; Land Use
+Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+  Response 9: [30]. Iceland also
+plans to gradually reduce emissions in the agriculture, waste and industry
+sectors.
+  Response 10: [71]. reduced coal consumption in electricity generation whilst agriculture emissions continue to
+increase.
+Checking match [97]: part of reducing atmospheric emissions from agriculture
+  Response 1: [43]. Reduction of emissions from agricultural land;
+  Response 2: [97]. contribute to lowering on farm emissions.
+    Found file match for query 1 at 2
+      set nmoft3[0][1] to 1
+      set nmoft5[0][1] to 1
+      set nmoft10[0][1] to 1
+  Response 3: [97]. emissions from agriculture.
+    Found file match for query 1 at 3
+      set nmoft3[0][2] to 1
+      set nmoft5[0][2] to 1
+      set nmoft10[0][2] to 1
+  Response 4: [97]. part of reducing atmospheric
+                                                  emissions from agriculture.
+    Found file match for query 1 at 4
+      set nmoft5[0][3] to 1
+      set nmoft10[0][3] to 1
+  Response 5: [56]. Action on agricultural emissions.
+  Response 6: [44]. Measures to reduce agricultural N2O emissions
+  Response 7: [9]. Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+  Response 8: [9]. Forests, Forestry and Agriculture; Land Use
+Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+  Response 9: [30]. Iceland also
+plans to gradually reduce emissions in the agriculture, waste and industry
+sectors.
+  Response 10: [71]. reduced coal consumption in electricity generation whilst agriculture emissions continue to
+increase.
+Checking match [9]: agricultural practices leading to minimization of greenhouse
+  Response 1: [43]. Reduction of emissions from agricultural land;
+  Response 2: [97]. contribute to lowering on farm emissions.
+  Response 3: [97]. emissions from agriculture.
+  Response 4: [97]. part of reducing atmospheric
+                                                  emissions from agriculture.
+  Response 5: [56]. Action on agricultural emissions.
+  Response 6: [44]. Measures to reduce agricultural N2O emissions
+  Response 7: [9]. Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+    Found file match for query 1 at 7
+      set nmoft10[0][6] to 1
+    Found file and phrase match for query 1 at 7
+  Response 8: [9]. Forests, Forestry and Agriculture; Land Use
+Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+    Found file match for query 1 at 8
+      set nmoft10[0][7] to 1
+    Found file and phrase match for query 1 at 8
+  Response 9: [30]. Iceland also
+plans to gradually reduce emissions in the agriculture, waste and industry
+sectors.
+  Response 10: [71]. reduced coal consumption in electricity generation whilst agriculture emissions continue to
+increase.
+Checking match [64]: above-mentioned measures reduce emissions in the agricultural sector
+  Response 1: [43]. Reduction of emissions from agricultural land;
+  Response 2: [97]. contribute to lowering on farm emissions.
+  Response 3: [97]. emissions from agriculture.
+  Response 4: [97]. part of reducing atmospheric
+                                                  emissions from agriculture.
+  Response 5: [56]. Action on agricultural emissions.
+  Response 6: [44]. Measures to reduce agricultural N2O emissions
+  Response 7: [9]. Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+  Response 8: [9]. Forests, Forestry and Agriculture; Land Use
+Good agricultural practices leading to minimization of greenhouse gas emissions are being
+developed.
+  Response 9: [30]. Iceland also
+plans to gradually reduce emissions in the agriculture, waste and industry
+sectors.
+  Response 10: [71]. reduced coal consumption in electricity generation whilst agriculture emissions continue to
+increase.
+
+
+{'num': 2, 'query': 'which countries have created cap and trade policies?', 'matches': [{'file-num': '92', 'phrase': 'developed based on Cap and Trade'}, {'file-num': '63', 'phrase': 'Sweden and Switzerland'}]}
+Running 2. which countries have created cap and trade policies?
+Checking match [92]: developed based on Cap and Trade
+  Response 1: [92]. The tool is usually developed based on Cap and Trade and is applied
+in the EU and US.
+    Found file match for query 2 at 1
+      set nmoft1[1][0] to 1
+      set nmoft3[1][0] to 1
+      set nmoft5[1][0] to 1
+      set nmoft10[1][0] to 1
+    Found file and phrase match for query 2 at 1
+  Response 2: [63]. Sweden and Switzerland.
+  Response 3: [19]. The two
+countries have concluded numerous bilateral agreements.
+  Response 4: [44]. two countries and Japan.
+  Response 5: [51]. 42     China, Thailand, Indonesia, India, Mexico, etc.
+  Response 6: [22]. The following countries are the main trading partners of Latvia: Lithuania, Estonia, Germany, Poland,
+Russia, Sweden, the Netherlands, Denmark, the United Kingdom, and Finland.
+  Response 7: [90]. Cap
+Norway participates in the EU ETS.
+  Response 8: [28]. It was
+one of the first countries to do so.
+  Response 9: [31]. carried out primarily in the PALOP countries and Timor-Leste.
+  Response 10: [56]. New Zealand
+Emissions Trading
+Scheme (NZ ETS)
+Checking match [63]: Sweden and Switzerland
+  Response 1: [92]. The tool is usually developed based on Cap and Trade and is applied
+in the EU and US.
+  Response 2: [63]. Sweden and Switzerland.
+    Found file match for query 2 at 2
+      set nmoft3[1][1] to 1
+      set nmoft5[1][1] to 1
+      set nmoft10[1][1] to 1
+    Found file and phrase match for query 2 at 2
+  Response 3: [19]. The two
+countries have concluded numerous bilateral agreements.
+  Response 4: [44]. two countries and Japan.
+  Response 5: [51]. 42     China, Thailand, Indonesia, India, Mexico, etc.
+  Response 6: [22]. The following countries are the main trading partners of Latvia: Lithuania, Estonia, Germany, Poland,
+Russia, Sweden, the Netherlands, Denmark, the United Kingdom, and Finland.
+  Response 7: [90]. Cap
+Norway participates in the EU ETS.
+  Response 8: [28]. It was
+one of the first countries to do so.
+  Response 9: [31]. carried out primarily in the PALOP countries and Timor-Leste.
+  Response 10: [56]. New Zealand
+Emissions Trading
+Scheme (NZ ETS)
+
+
+{'num': 3, 'query': 'how have living standards improvements affected emissions', 'matches': [{'file-num': '68', 'phrase': 'living standards improvement resulted in an increase of energy consumption'}, {'file-num': '68', 'phrase': 'Living standards improvement resulted in an increase of the generated waste'}, {'file-num': '32', 'phrase': 'Improvement of quality of life based on an environmental-friendly approach'}]}
+Running 3. how have living standards improvements affected emissions
+Checking match [68]: living standards improvement resulted in an increase of energy consumption
+  Response 1: [68]. Living standards improvement resulted in an increase of the
+generated waste and thus of emissions.
+    Found file match for query 3 at 1
+      set nmoft1[2][0] to 1
+      set nmoft3[2][0] to 1
+      set nmoft5[2][0] to 1
+      set nmoft10[2][0] to 1
+  Response 2: [32]. Living standards
+   improvement  resulted  in  an  increase  of  the  generated  waste  and  thus  of
+      emissions.
+  Response 3: [50]. Living standards improvement resulted in an increase of the
+generated waste and thus of emissions.
+  Response 4: [32]. Improvement of quality of life based on an environmental-friendly approach.
+  Response 5: [68]. Quality of life enhancement, with respect to the environment
+    Found file match for query 3 at 5
+      set nmoft5[2][4] to 1
+      set nmoft10[2][4] to 1
+  Response 6: [50]. The living standards improvement resulted in an increase of energy consumption and particularly
+electricity consumption (mainly in the residential – tertiary sector), passenger cars ownership and
+  Response 7: [97]. standards and improved installation practices.
+  Response 8: [53]. Upgrades to the nZEB
+standard need to be strongly encouraged.
+  Response 9: [53]. Upgrades   to   the   nZEB
+standard need to be strongly
+encouraged.
+  Response 10: [53]. Upgrades to the nZEB standard need to be strongly encouraged.
+Checking match [68]: Living standards improvement resulted in an increase of the generated waste
+  Response 1: [68]. Living standards improvement resulted in an increase of the
+generated waste and thus of emissions.
+    Found file match for query 3 at 1
+      set nmoft1[2][0] to 1
+      set nmoft3[2][0] to 1
+      set nmoft5[2][0] to 1
+      set nmoft10[2][0] to 1
+  Response 2: [32]. Living standards
+   improvement  resulted  in  an  increase  of  the  generated  waste  and  thus  of
+      emissions.
+  Response 3: [50]. Living standards improvement resulted in an increase of the
+generated waste and thus of emissions.
+  Response 4: [32]. Improvement of quality of life based on an environmental-friendly approach.
+  Response 5: [68]. Quality of life enhancement, with respect to the environment
+    Found file match for query 3 at 5
+      set nmoft5[2][4] to 1
+      set nmoft10[2][4] to 1
+  Response 6: [50]. The living standards improvement resulted in an increase of energy consumption and particularly
+electricity consumption (mainly in the residential – tertiary sector), passenger cars ownership and
+  Response 7: [97]. standards and improved installation practices.
+  Response 8: [53]. Upgrades to the nZEB
+standard need to be strongly encouraged.
+  Response 9: [53]. Upgrades   to   the   nZEB
+standard need to be strongly
+encouraged.
+  Response 10: [53]. Upgrades to the nZEB standard need to be strongly encouraged.
+Checking match [32]: Improvement of quality of life based on an environmental-friendly approach
+  Response 1: [68]. Living standards improvement resulted in an increase of the
+generated waste and thus of emissions.
+  Response 2: [32]. Living standards
+   improvement  resulted  in  an  increase  of  the  generated  waste  and  thus  of
+      emissions.
+    Found file match for query 3 at 2
+      set nmoft3[2][1] to 1
+      set nmoft5[2][1] to 1
+      set nmoft10[2][1] to 1
+  Response 3: [50]. Living standards improvement resulted in an increase of the
+generated waste and thus of emissions.
+  Response 4: [32]. Improvement of quality of life based on an environmental-friendly approach.
+    Found file match for query 3 at 4
+      set nmoft5[2][3] to 1
+      set nmoft10[2][3] to 1
+    Found file and phrase match for query 3 at 4
+  Response 5: [68]. Quality of life enhancement, with respect to the environment
+  Response 6: [50]. The living standards improvement resulted in an increase of energy consumption and particularly
+electricity consumption (mainly in the residential – tertiary sector), passenger cars ownership and
+  Response 7: [97]. standards and improved installation practices.
+  Response 8: [53]. Upgrades to the nZEB
+standard need to be strongly encouraged.
+  Response 9: [53]. Upgrades   to   the   nZEB
+standard need to be strongly
+encouraged.
+  Response 10: [53]. Upgrades to the nZEB standard need to be strongly encouraged.
+
+
+{'num': 4, 'query': 'transport emissions modeling', 'matches': [{'file-num': '41', 'phrase': 'Modelling of transport emissions involves three models'}, {'file-num': '6', 'phrase': 'Two models were used for transport emissions projections'}, {'file-num': '17', 'phrase': 'projection of of emissions from transport is carried out with the Transport Model'}, {'file-num': '9', 'phrase': 'model covers freight and passenger traffic'}, {'file-num': '6', 'phrase': 'Transport emissions were determined using emission factors of the GAINS model'}]}
+Running 4. transport emissions modeling
+Checking match [41]: Modelling of transport emissions involves three models
+  Response 1: [41]. Modelling of transport emissions involves three models:
+    Found file match for query 4 at 1
+      set nmoft1[3][0] to 1
+      set nmoft3[3][0] to 1
+      set nmoft5[3][0] to 1
+      set nmoft10[3][0] to 1
+    Found file and phrase match for query 4 at 1
+  Response 2: [9]. The model covers freight
+and passenger traffic as well as all modes of transport.
+  Response 3: [6]. TRANSPORT
+Two models were used for transport emissions projections.
+  Response 4: [60]. Other modes of transport followed the same pattern.
+  Response 5: [38]. Maritime transport is treated in a separate model.
+  Response 6: [17]. The projection of of emissions from  transport is carried out with the Transport
+Model, which models energy consumption by the transport sector.
+  Response 7: [17]. The weakness of the transport model is that it doesn't take energy prices
+into account and that it does not allow for modal shift in transport.
+  Response 8: [87]. Vehicle Fleet Emissions Model.
+  Response 9: [48]. Different models were used
+for the various transport modes.
+  Response 10: [7]. mode share targets and to reduce transport emissions.
+Checking match [6]: Two models were used for transport emissions projections
+  Response 1: [41]. Modelling of transport emissions involves three models:
+  Response 2: [9]. The model covers freight
+and passenger traffic as well as all modes of transport.
+  Response 3: [6]. TRANSPORT
+Two models were used for transport emissions projections.
+    Found file match for query 4 at 3
+      set nmoft3[3][2] to 1
+      set nmoft5[3][2] to 1
+      set nmoft10[3][2] to 1
+    Found file and phrase match for query 4 at 3
+  Response 4: [60]. Other modes of transport followed the same pattern.
+  Response 5: [38]. Maritime transport is treated in a separate model.
+  Response 6: [17]. The projection of of emissions from  transport is carried out with the Transport
+Model, which models energy consumption by the transport sector.
+  Response 7: [17]. The weakness of the transport model is that it doesn't take energy prices
+into account and that it does not allow for modal shift in transport.
+  Response 8: [87]. Vehicle Fleet Emissions Model.
+  Response 9: [48]. Different models were used
+for the various transport modes.
+  Response 10: [7]. mode share targets and to reduce transport emissions.
+Checking match [17]: projection of of emissions from transport is carried out with the Transport Model
+  Response 1: [41]. Modelling of transport emissions involves three models:
+  Response 2: [9]. The model covers freight
+and passenger traffic as well as all modes of transport.
+  Response 3: [6]. TRANSPORT
+Two models were used for transport emissions projections.
+  Response 4: [60]. Other modes of transport followed the same pattern.
+  Response 5: [38]. Maritime transport is treated in a separate model.
+  Response 6: [17]. The projection of of emissions from  transport is carried out with the Transport
+Model, which models energy consumption by the transport sector.
+    Found file match for query 4 at 6
+      set nmoft10[3][5] to 1
+  Response 7: [17]. The weakness of the transport model is that it doesn't take energy prices
+into account and that it does not allow for modal shift in transport.
+    Found file match for query 4 at 7
+      set nmoft10[3][6] to 1
+  Response 8: [87]. Vehicle Fleet Emissions Model.
+  Response 9: [48]. Different models were used
+for the various transport modes.
+  Response 10: [7]. mode share targets and to reduce transport emissions.
+Checking match [9]: model covers freight and passenger traffic
+  Response 1: [41]. Modelling of transport emissions involves three models:
+  Response 2: [9]. The model covers freight
+and passenger traffic as well as all modes of transport.
+    Found file match for query 4 at 2
+      set nmoft3[3][1] to 1
+      set nmoft5[3][1] to 1
+      set nmoft10[3][1] to 1
+  Response 3: [6]. TRANSPORT
+Two models were used for transport emissions projections.
+  Response 4: [60]. Other modes of transport followed the same pattern.
+  Response 5: [38]. Maritime transport is treated in a separate model.
+  Response 6: [17]. The projection of of emissions from  transport is carried out with the Transport
+Model, which models energy consumption by the transport sector.
+  Response 7: [17]. The weakness of the transport model is that it doesn't take energy prices
+into account and that it does not allow for modal shift in transport.
+  Response 8: [87]. Vehicle Fleet Emissions Model.
+  Response 9: [48]. Different models were used
+for the various transport modes.
+  Response 10: [7]. mode share targets and to reduce transport emissions.
+Checking match [6]: Transport emissions were determined using emission factors of the GAINS model
+  Response 1: [41]. Modelling of transport emissions involves three models:
+  Response 2: [9]. The model covers freight
+and passenger traffic as well as all modes of transport.
+  Response 3: [6]. TRANSPORT
+Two models were used for transport emissions projections.
+    Found file match for query 4 at 3
+      set nmoft3[3][2] to 1
+      set nmoft5[3][2] to 1
+      set nmoft10[3][2] to 1
+  Response 4: [60]. Other modes of transport followed the same pattern.
+  Response 5: [38]. Maritime transport is treated in a separate model.
+  Response 6: [17]. The projection of of emissions from  transport is carried out with the Transport
+Model, which models energy consumption by the transport sector.
+  Response 7: [17]. The weakness of the transport model is that it doesn't take energy prices
+into account and that it does not allow for modal shift in transport.
+  Response 8: [87]. Vehicle Fleet Emissions Model.
+  Response 9: [48]. Different models were used
+for the various transport modes.
+  Response 10: [7]. mode share targets and to reduce transport emissions.
+
+
+{'num': 5, 'query': 'increase in emissions related to forestry harvest rate', 'matches': [{'file-num': '87', 'phrase': 'higher than usual harvest rates'}]}
+Running 5. increase in emissions related to forestry harvest rate
+Checking match [87]: higher than usual harvest rates
+  Response 1: [90]. Thus, tree breeding is a way
+of increasing CO  removals by forests.
+  Response 2: [46]. Decrease in growing stock volume increment accumulated in forest is also related to increasing
+harvested volume.
+  Response 3: [89]. Thus, tree breeding is a way of increasing
+CO2 removals by forests.
+  Response 4: [87]. This is largely the result of
+increased production of harvested wood products, which have compensated for the emissions
+from the increase in forest harvesting.
+    Found file match for query 5 at 4
+      set nmoft5[4][3] to 1
+      set nmoft10[4][3] to 1
+  Response 5: [6]. The increase in sinks is primarily the
+result of an increase in timber growing stock in existing forests.
+  Response 6: [49]. Increased emissions from
+  Response 7: [23]. Sinks and emissions not related to forestry were projected with extrapolation.
+  Response 8: [86]. This is largely the result of increased harvesting of
+plantation forests as a larger proportion of the estate reaches harvest age.
+  Response 9: [25]. Recent forestry policies *             LULUCF                CO , CH ,      Increase afforestation.
+  Response 10: [25]. Increase in estimated CH  emissions from waste.
+
+
+{'num': 6, 'query': 'are sheep numbers going up in the UK?', 'matches': [{'file-num': '97', 'phrase': 'Total sheep and lamb numbers in the UK'}]}
+Running 6. are sheep numbers going up in the UK?
+Checking match [97]: Total sheep and lamb numbers in the UK
+  Response 1: [97]. Total sheep and lamb numbers in the UK during the period 1984-2021 are
+shown in Figure 1.23.
+    Found file match for query 6 at 1
+      set nmoft1[5][0] to 1
+      set nmoft3[5][0] to 1
+      set nmoft5[5][0] to 1
+      set nmoft10[5][0] to 1
+    Found file and phrase match for query 6 at 1
+  Response 2: [25]. Total sheep and lamb numbers in the UK during the period 1984-2016 are shown
+in Figure 25.
+  Response 3: [25]. 67  Farming statistics: livestock populations at 1 December 2016 – UK and England
+https://www.gov.uk/government/statistics/farming-statistics-livestock-populations-at-1-december-2016-uk
+
+Thousand Head                                                                                                                    Thousand head
+
+9,200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+Figure 25: Total sheep and lambs in the UK June 1984-2016
+
+50,000
+
+45,000
+
+40,000
+
+35,000
+
+30,000
+
+25,000
+
+20,000
+
+15,000
+
+10,000
+
+5,000
+
+
+
+   1984        1988        1992        1996        2000        2004        2008        2012        2016
+
+Source: Farming Statistics, Department for Environment, Food and Rural Affairs
+
+
+1.13 Forestry Profile
+The area of woodland in the UK at 31 March 2017 is 3.2 million hectares.
+  Response 4: [22]. During the last years the number of sheep has increased
+gradually.
+  Response 5: [97]. Total cattle and calf numbers in the UK during the period
+2005-2021 are shown in Figure 1.21.
+    Found file match for query 6 at 5
+      set nmoft5[5][4] to 1
+      set nmoft10[5][4] to 1
+  Response 6: [24]. In the past there has been a marked drop in the number in livestock, despite that fact that
+livestock numbers grew in certain neighbouring countries.
+  Response 7: [64]. It has been assumed that the number of sheep will remain the same.
+  Response 8: [25]. Total cattle and calves numbers in the UK during the period 2005-2016 are shown in
+Figure 23.67
+
+Thousand Head                                                                                                                    Thousand head
+  Response 9: [25]. Figure 24: Total pig numbers in the UK, December 1992-2016
+
+9,000
+
+8,000
+
+7,000
+
+6,000
+
+5,000
+
+4,000
+
+3,000
+
+2,000
+
+1,000
+
+
+
+           1992  1994  1996  1998  2000  2002  2004  2006  2008  2010  2012  2014  2016
+
+Source: Farming Statistics, Department for Environment, Food and Rural Affairs
+
+
+The total number of sheep and lambs in the UK increased by 1.8% between June 2015 and
+June 2016, to just below 34 million.
+  Response 10: [48]. Animal numbers (thousands)     2016     2020     2025     2030
+Dairy Cattle     458     448     432     417
+Non-dairy Cattle     2 100     2 022     1 938     1 859
+Sheep     122     117     115     113
+Swine     6 500     6 451     6 380     6 310
+Poultry     42 050     44 752     48 404     52 190
+
+
+
+43
+
+Table 5.14 Livestock numbers used in the projections
+
+
+{'num': 7, 'query': 'what is the climate like in denmark?', 'matches': [{'file-num': '17', 'phrase': 'Danish climate is temperate with precipitation evenly distributed'}, {'file-num': '17', 'phrase': 'distinctly coastal climate, with mild, damp winters'}, {'file-num': '17', 'phrase': 'situated in a temperate climate zone'}]}
+Running 7. what is the climate like in denmark?
+Checking match [17]: Danish climate is temperate with precipitation evenly distributed
+  Response 1: [17]. Denmark has a distinctly coastal climate, with mild, damp winters and cool, unsettled
+summers.
+    Found file match for query 7 at 1
+      set nmoft1[6][0] to 1
+      set nmoft3[6][0] to 1
+      set nmoft5[6][0] to 1
+      set nmoft10[6][0] to 1
+  Response 2: [17]. The
+weather in Denmark thus depends very much on the wind direction and the season.
+    Found file match for query 7 at 2
+      set nmoft3[6][1] to 1
+      set nmoft5[6][1] to 1
+      set nmoft10[6][1] to 1
+  Response 3: [17]. -    Denmark is situated in a temperate climate zone.
+    Found file match for query 7 at 3
+      set nmoft3[6][2] to 1
+      set nmoft5[6][2] to 1
+      set nmoft10[6][2] to 1
+  Response 4: [17]. The Danish climate is temperate with precipitation evenly distributed over the year.
+    Found file match for query 7 at 4
+      set nmoft5[6][3] to 1
+      set nmoft10[6][3] to 1
+    Found file and phrase match for query 7 at 4
+  Response 5: [17]. 2.1.4    Climate
+The Danish climate is temperate with precipitation evenly distributed over the year.
+    Found file match for query 7 at 5
+      set nmoft5[6][4] to 1
+      set nmoft10[6][4] to 1
+    Found file and phrase match for query 7 at 5
+  Response 6: [17]. However, the weather in Denmark is greatly
+affected by the proximity of both the sea and the continent.
+    Found file match for query 7 at 6
+      set nmoft10[6][5] to 1
+  Response 7: [17]. 6.1.2.2   Projected climate changes in Denmark
+    Found file match for query 7 at 7
+      set nmoft10[6][6] to 1
+  Response 8: [17]. Since the Ice Age, Denmark has had a temperate maritime climate.
+    Found file match for query 7 at 8
+      set nmoft10[6][7] to 1
+  Response 9: [17]. ·   The Mediterranean will be too hot, and this will make Denmark more
+     attractive: Although the Mediterranean is currently is the most popular region
+      for tourists in Europe, with a very hot and dry climate, it is expected that,
+      especially in high summer, the Mediterranean will attract fewer tourists.
+    Found file match for query 7 at 9
+      set nmoft10[6][8] to 1
+  Response 10: [17]. With a warmer climate, it is likely that the Danish tourist season
+     will extend towards the whole year, and Denmark will be even more attractive
+      in the high season.
+    Found file match for query 7 at 10
+      set nmoft10[6][9] to 1
+Checking match [17]: distinctly coastal climate, with mild, damp winters
+  Response 1: [17]. Denmark has a distinctly coastal climate, with mild, damp winters and cool, unsettled
+summers.
+    Found file match for query 7 at 1
+      set nmoft1[6][0] to 1
+      set nmoft3[6][0] to 1
+      set nmoft5[6][0] to 1
+      set nmoft10[6][0] to 1
+    Found file and phrase match for query 7 at 1
+  Response 2: [17]. The
+weather in Denmark thus depends very much on the wind direction and the season.
+    Found file match for query 7 at 2
+      set nmoft3[6][1] to 1
+      set nmoft5[6][1] to 1
+      set nmoft10[6][1] to 1
+  Response 3: [17]. -    Denmark is situated in a temperate climate zone.
+    Found file match for query 7 at 3
+      set nmoft3[6][2] to 1
+      set nmoft5[6][2] to 1
+      set nmoft10[6][2] to 1
+  Response 4: [17]. The Danish climate is temperate with precipitation evenly distributed over the year.
+    Found file match for query 7 at 4
+      set nmoft5[6][3] to 1
+      set nmoft10[6][3] to 1
+  Response 5: [17]. 2.1.4    Climate
+The Danish climate is temperate with precipitation evenly distributed over the year.
+    Found file match for query 7 at 5
+      set nmoft5[6][4] to 1
+      set nmoft10[6][4] to 1
+  Response 6: [17]. However, the weather in Denmark is greatly
+affected by the proximity of both the sea and the continent.
+    Found file match for query 7 at 6
+      set nmoft10[6][5] to 1
+  Response 7: [17]. 6.1.2.2   Projected climate changes in Denmark
+    Found file match for query 7 at 7
+      set nmoft10[6][6] to 1
+  Response 8: [17]. Since the Ice Age, Denmark has had a temperate maritime climate.
+    Found file match for query 7 at 8
+      set nmoft10[6][7] to 1
+  Response 9: [17]. ·   The Mediterranean will be too hot, and this will make Denmark more
+     attractive: Although the Mediterranean is currently is the most popular region
+      for tourists in Europe, with a very hot and dry climate, it is expected that,
+      especially in high summer, the Mediterranean will attract fewer tourists.
+    Found file match for query 7 at 9
+      set nmoft10[6][8] to 1
+  Response 10: [17]. With a warmer climate, it is likely that the Danish tourist season
+     will extend towards the whole year, and Denmark will be even more attractive
+      in the high season.
+    Found file match for query 7 at 10
+      set nmoft10[6][9] to 1
+Checking match [17]: situated in a temperate climate zone
+  Response 1: [17]. Denmark has a distinctly coastal climate, with mild, damp winters and cool, unsettled
+summers.
+    Found file match for query 7 at 1
+      set nmoft1[6][0] to 1
+      set nmoft3[6][0] to 1
+      set nmoft5[6][0] to 1
+      set nmoft10[6][0] to 1
+  Response 2: [17]. The
+weather in Denmark thus depends very much on the wind direction and the season.
+    Found file match for query 7 at 2
+      set nmoft3[6][1] to 1
+      set nmoft5[6][1] to 1
+      set nmoft10[6][1] to 1
+  Response 3: [17]. -    Denmark is situated in a temperate climate zone.
+    Found file match for query 7 at 3
+      set nmoft3[6][2] to 1
+      set nmoft5[6][2] to 1
+      set nmoft10[6][2] to 1
+    Found file and phrase match for query 7 at 3
+  Response 4: [17]. The Danish climate is temperate with precipitation evenly distributed over the year.
+    Found file match for query 7 at 4
+      set nmoft5[6][3] to 1
+      set nmoft10[6][3] to 1
+  Response 5: [17]. 2.1.4    Climate
+The Danish climate is temperate with precipitation evenly distributed over the year.
+    Found file match for query 7 at 5
+      set nmoft5[6][4] to 1
+      set nmoft10[6][4] to 1
+  Response 6: [17]. However, the weather in Denmark is greatly
+affected by the proximity of both the sea and the continent.
+    Found file match for query 7 at 6
+      set nmoft10[6][5] to 1
+  Response 7: [17]. 6.1.2.2   Projected climate changes in Denmark
+    Found file match for query 7 at 7
+      set nmoft10[6][6] to 1
+  Response 8: [17]. Since the Ice Age, Denmark has had a temperate maritime climate.
+    Found file match for query 7 at 8
+      set nmoft10[6][7] to 1
+  Response 9: [17]. ·   The Mediterranean will be too hot, and this will make Denmark more
+     attractive: Although the Mediterranean is currently is the most popular region
+      for tourists in Europe, with a very hot and dry climate, it is expected that,
+      especially in high summer, the Mediterranean will attract fewer tourists.
+    Found file match for query 7 at 9
+      set nmoft10[6][8] to 1
+  Response 10: [17]. With a warmer climate, it is likely that the Danish tourist season
+     will extend towards the whole year, and Denmark will be even more attractive
+      in the high season.
+    Found file match for query 7 at 10
+      set nmoft10[6][9] to 1
+
+
+{'num': 8, 'query': "what are France's goals for 2030?", 'matches': [{'file-num': '44', 'phrase': 'the EU has set goals for 2030'}]}
+Running 8. what are France's goals for 2030?
+Checking match [44]: the EU has set goals for 2030
+  Response 1: [44]. Update on the 2020 targets France has achieved
+    Found file match for query 8 at 1
+      set nmoft1[7][0] to 1
+      set nmoft3[7][0] to 1
+      set nmoft5[7][0] to 1
+      set nmoft10[7][0] to 1
+  Response 2: [37]. Projections indicate that,
+beyond 2030, further action will be required to honour the ultimate goals set by ‘Paris’.
+  Response 3: [44]. to some extent to ensure that France conforms to the reduction targets over the 2017-2020 period or could be
+    Found file match for query 8 at 3
+      set nmoft3[7][2] to 1
+      set nmoft5[7][2] to 1
+      set nmoft10[7][2] to 1
+  Response 4: [34]. We are determined to meet
+or exceed that 2030 goal.
+  Response 5: [44]. Beyond the 2020 goals, the EU has set goals for 2030.
+    Found file match for query 8 at 5
+      set nmoft5[7][4] to 1
+      set nmoft10[7][4] to 1
+    Found file and phrase match for query 8 at 5
+  Response 6: [16]. todos los europeos” con objetivos a 2030.
+  Response 7: [60]. The Netherlands is
+committed to the Paris Agreement and to achieving the Sustainable Development Goals
+(SDGs) by 2030.
+  Response 8: [16]. Objetivo Europeo 2020 y contribución de España al mismo
+  Response 9: [20]. Avec 21 % de réduction des émissions hors ETS prévues en 2020 par rapport à 2005, les politiques et
+mesures existantes devraient ainsi permettre à la France d’atteindre son objectif pour 2020.
+  Response 10: [59]. The goal is to achieve 5% recovery by 2030.
+
+
+{'num': 9, 'query': "what is responsible for coordination of portugal's inventory of air pollutants?", 'matches': [{'file-num': '5', 'phrase': 'the national entity responsible for the overall coordination'}]}
+Running 9. what is responsible for coordination of portugal's inventory of air pollutants?
+Checking match [5]: the national entity responsible for the overall coordination
+  Response 1: [91]. As previously referred, the APA/ DCLIMA is the national entity responsible for the overall coordination of
+the Portuguese inventory of air pollutants emissions.
+  Response 2: [5]. As previously referred, the APA/ DCLIMA is the national entity responsible for the overall coordination of
+the Portuguese inventory of air pollutants emissions.
+    Found file match for query 9 at 2
+      set nmoft3[8][1] to 1
+      set nmoft5[8][1] to 1
+      set nmoft10[8][1] to 1
+    Found file and phrase match for query 9 at 2
+  Response 3: [31]. Responsibility
+    As referred in section 1.2.1 APA is the national entity responsible for the overall coordination of the
+Portuguese inventory of air pollutants emissions.
+  Response 4: [91]. According to these attributions, APA makes an annual
+compilation of  the  Portuguese Inventory of  air  emissions which  includes GHG’s sources  and sinks,
+acidifying substances as well as other pollutants.
+  Response 5: [5]. According to these attributions, APA makes an annual
+compilation of  the  Portuguese Inventory of  air  emissions which  includes GHG’s sources  and sinks,
+acidifying substances as well as other pollutants.
+    Found file match for query 9 at 5
+      set nmoft5[8][4] to 1
+      set nmoft10[8][4] to 1
+  Response 6: [31]. According to these attributions, APA makes an annual
+compilation of the Portuguese Inventory of air emissions which includes GHG’s sources and sinks, acidifying
+substances as well as other pollutants.
+  Response 7: [31]. The GHG emission inventory is the official annual accounting of all anthropogenic emissions and removals
+of greenhouse gases in Portugal.
+  Response 8: [68]. Interventions in the sources of atmospheric pollution.
+  Response 9: [22]. Taxation on noxious air polluting emissions creates synergy effect with CO2 taxation.
+  Response 10: [74]. Taxation on noxious air polluting emissions
+Taxation on noxious air polluting emissions creates synergy effect with CO2 taxation.
+
+
+{'num': 10, 'query': 'what is ireland doing to increase public awareness?', 'matches': [{'file-num': '33', 'phrase': 'Ireland has put in place a number of significant initiatives'}]}
+Running 10. what is ireland doing to increase public awareness?
+Checking match [33]: Ireland has put in place a number of significant initiatives
+  Response 1: [33]. 1.8 Education, Training and Public Awareness
+Ireland has put in place a number of significant initiatives in the area of public awareness.
+    Found file match for query 10 at 1
+      set nmoft1[9][0] to 1
+      set nmoft3[9][0] to 1
+      set nmoft5[9][0] to 1
+      set nmoft10[9][0] to 1
+    Found file and phrase match for query 10 at 1
+  Response 2: [46]. Raising public awareness and promoting behavioural change through
+  Response 3: [32]. raise public awareness and disseminate information.
+  Response 4: [60]. Education, training and public awareness
+
+
+There is a high-level mandate for education, training and public awareness with regards
+to climate in the Netherlands.
+  Response 5: [55]. raising the public awareness in relation to waste management.
+  Response 6: [70]. Several public campaigns conducted in Iceland by public and private parties contribute to the reduction
+of emissions.
+  Response 7: [70]. Several public campaigns conducted in Iceland by public and private parties contribute to the reduction
+of emissions.
+  Response 8: [59]. Education, training and public awareness
+  Response 9: [70]. Several public campaigns conducted in Iceland by public and private parties contribute to the reduction
+of emissions.
+  Response 10: [36]. Education, training and public awareness
+
+
+num_matches_on_file_top_1=[[1], [1], [1], [1], [1], [1], [1], [1], [1], [1]]
+num_matches_on_file_top_3=[[1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1]]
+num_matches_on_file_top_5=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1]]
+num_matches_on_file_top_10=[[1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+num_matches_on_file_and_phrase_top_1=[0, 1, 0, 1, 0, 1, 1, 0, 0, 1]
+num_matches_on_file_and_phrase_top_3=[1, 2, 0, 2, 0, 1, 2, 0, 1, 1]
+num_matches_on_file_and_phrase_top_5=[1, 2, 1, 2, 0, 1, 4, 1, 1, 1]
+num_matches_on_file_and_phrase_top_10=[3, 2, 1, 2, 0, 1, 4, 1, 1, 1]
+first_matches_on_file=[2, 1, 1, 1, 4, 1, 1, 1, 2, 1]
+first_matches_on_file_and_phrase=[2, 1, 4, 1, 0, 1, 1, 5, 2, 1]
+Metrics: {'file_match_avg_p_at_1': 1.0, 'file_match_avg_p_at_3': 1.0, 'file_match_avg_p_at_5': 1.0, 'file_match_avg_p_at_10': 1.0, 'file_and_phrase_match_avg_p_at_1': 0.5, 'file_and_phrase_match_avg_p_at_3': 0.33333333333333337, 'file_and_phrase_match_avg_p_at_5': 0.2800000000000001, 'file_and_phrase_match_avg_p_at_10': 0.16000000000000003, 'percent_first_file_match_in_top_1': 0.7, 'percent_first_file_match_in_top_3': 0.9, 'percent_first_file_match_in_top_5': 1.0, 'percent_first_file_match_in_top_10': 1.0, 'percent_first_file_and_phrase_match_in_top_1': 0.5, 'percent_first_file_and_phrase_match_in_top_3': 0.7, 'percent_first_file_and_phrase_match_in_top_5': 0.9, 'percent_first_file_and_phrase_match_in_top_10': 0.9}
+2022-12-30 08:04:29,988 INFO     Evaluation metrics written to results/results-doc-search-12_30_2022_08_04_29.json

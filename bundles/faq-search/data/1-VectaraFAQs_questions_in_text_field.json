@@ -1,0 +1,186 @@
+{
+  "section": [
+    {
+      "id": "1",
+      "text": "What is Vectara? Vectara is a search engine powered by the latest neural network and information retrieval technologies to deliver search results with high efficacy and low latency. Developers and engineers can use Vectara to add advanced semantic search capabilities in their sites and applications. Vectara can understand queries in natural language phrases and questions regardless of how the question is asked.",
+      "metadata_json": "{\"category\": \"About Vectara\"}"
+    },
+    {
+      "id": "2",
+      "text": "How does Vectara work? Vectara uses neural networks to apply complete vector encoding for all indexed content and all queries, allowing for a high efficacy semantic response. Vectara combines native neural indexing for all content, statistical keyword algorithms, and re-rankers to maximize the relevance of results across a wide spectrum of queries and data classes.",
+      "metadata_json": "{\"category\": \"About Vectara\"}"
+    },
+    {
+      "id": "3",
+      "text": "How can I benefit from Vectara? You can benefit from Vectara if: (1) You are looking to augment search efficacy of an existing search solution. (2) You are looking to add or replace a search solution within a new or existing application or website. (3) You are building an application or natural language processing (NLP) pipeline that needs to better classify, retrieve, and/or present text within a specific application context.",
+      "metadata_json": "{\"category\": \"About Vectara\"}"
+    },
+    {
+      "id": "4",
+      "text": "What are the use cases for Vectara? (1) Web and application search for digital media, online retail, communities, and forums. (4) Product search in SaaS and enterprise applications. (3) Question and answer oriented search such as FAQ search, customer support agent assistance, and chatbots. (4) Documentation search",
+      "metadata_json": "{\"category\": \"About Vectara\"}"
+    },
+    {
+      "id": "5",
+      "text": "How is Vectara different from other search solutions? Vectara has many core features in its Search-as-a-Service platform, and we have unique features that address limitations of current in-market systems. Some of Vectara’s unique differentiators include: (1) 100 % neural search pipeline – encoding, retrieval, and reranking – that delivers a true semantic response for all indexed content and query types. (2) API-first semantic search as a service platform that can be easily set up by any web or application developer in minutes without prior configuration, tuning, or optimization. (3) Intelligent search that eliminates the need for synonyms, stop words, spelling correction, and stemming rules. (4) Cross language search – search an index in a given language with queries from a different language. (4) Operationalization of industry-leading neural network models for ultra-fast and cost-effective search.",
+      "metadata_json": "{\"category\": \"About Vectara\"}"
+    },
+    {
+      "id": "6",
+      "text": "What countries is Vectara available in? Vectara is a cloud-based search engine running on AWS infrastructure. See the AWS Regional Services page (https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) for more details.",
+      "metadata_json": "{\"category\": \"About Vectara\"}"
+    },
+    {
+      "id": "7",
+      "text": "How do I apply for a job at Vectara? You can check all our available openings on our Careers page (https://vectara.com/careers/).",
+      "metadata_json": "{\"category\": \"About Vectara\"}"
+    },
+    {
+      "id": "8",
+      "text": "How do I get up and running with Vectara? All you need to do is sign up with a company email address. You will then get access to the Vectara console (https://console.vectara.com/login) to get started with ingesting documents and testing the search engine. For more information on setting up Vectara, you can check out our Getting Started (https://vectara.com/community/getting-started/) and Docs (https://docs.vectara.com/).",
+      "metadata_json": "{\"category\": \"Software\"}"
+    },
+    {
+      "id": "9",
+      "text": "How long does it take to implement Vectara? Setting up and implementing Vectara in production can be done on the same day. Index your first document and issue your first batch of queries in under 5 minutes.",
+      "metadata_json": "{\"category\": \"Software\"}"
+    },
+    {
+      "id": "10",
+      "text": "What file types does Vectara support? Vectara supports PDF, Microsoft Word, Microsoft Powerpoint, Open Office, HTML, JSON, XML, email in RFC822, text, RTF, ePUB, and Common Mark.",
+      "metadata_json": "{\"category\": \"Software\"}"
+    },
+    {
+      "id": "11",
+      "text": "What languages does Vectara support? You can index and search on in the world’s most commonly written 11 languages.",
+      "metadata_json": "{\"category\": \"Software\"}"
+    },
+    {
+      "id": "12",
+      "text": "Can I index from any data source? You can index data from any text document in a supported file format via Vectara APIs or the file upload feature within the Vectara console (https://console.vectara.com/login).",
+      "metadata_json": "{\"category\": \"Software\"}"
+    },
+    {
+      "id": "13",
+      "text": "Can I search across multiple indexes? Yes, you can issue a single query or multiple queries in parallel to one or multiple indexes.",
+      "metadata_json": "{\"category\": \"Software\"}"
+    },
+    {
+      "id": "14",
+      "text": "What are the deployment options for Vectara? Vectara is a fully managed cloud platform, maintained by the Vectara team and deployed on AWS. Like other multi-tenant SaaS services, it employs a release process designed to ensure features ship faster, the product can scale seamlessly when any client load increases and it leverages enterprise-grade security provided, in part, by AWS. This eliminates the responsibility for server maintenance, upgrades and capacity provisioning.",
+      "metadata_json": "{\"category\": \"Deployment\"}"
+    },
+    {
+      "id": "15",
+      "text": "What resources do I need to deploy Vectara? No additional or specialized engineering, hardware, or infrastructure resources are needed to successfully deploy Vectara. Vectara was developed to make it easy for web and application developers to integrate semantic search in sites and applications without the need for additional training or resources. For more information on setting up Vectara, you can check out our Getting Started (https://vectara.com/community/getting-started/) and Docs (https://docs.vectara.com/).",
+      "metadata_json": "{\"category\": \"Deployment\"}"
+    },
+    {
+      "id": "16",
+      "text": "Does Vectara have any scalability limits? Vectara can auto scale from small volumes of text to millions of documents without the need to manage the provisioning of additional computing infrastructure. Vectara automatically adds capacity as needed to handle higher query volumes.",
+      "metadata_json": "{\"category\": \"Deployment\"}"
+    },
+    {
+      "id": "17",
+      "text": "I am having trouble setting up Vectara. What should I do? If you are having any trouble setting up Vectara or need any help with implementation, you can send a message on our Vectara Discourse Community (https://discuss.vectara.com/) or contact Vectara support directly at support@vectara.com. You can also visit https://support.vectara.com.",
+      "metadata_json": "{\"category\": \"Deployment\"}"
+    },
+    {
+      "id": "18",
+      "text": "What are Vectara’s SLAs? Vectara offers SLAs in support, availability, and performance. For a full list of available Vectara SLAs, please review our Pricing page (https://vectara.com/pricing/) and order form documents.",
+      "metadata_json": "{\"category\": \"Deployment\"}"
+    },
+    {
+      "id": "19",
+      "text": "What are the different options for buying Vectara? There are 2 Vectara subscription plans to choose from: Growth and Scale. You can visit Vectara’s pricing page (https://vectara.com/pricing/) to view the different features for each plan and determine the best one for your needs.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "20",
+      "text": "Is there a free plan? Yes, Vectara’s Growth plan is free with a defined query volume that resets every month and storage capacity allocation. Customers who need more queries and / or storage capacity can purchase additional capacity bundles on the Growth plan.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "21",
+      "text": "What is Vectara’s pricing model? Vectara has a usage-based pricing model that is a function of search queries processed and account size. Visit our pricing page (https://vectara.com/pricing/) for more details.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "22",
+      "text": "How do you count queries in your pricing model? Any queries that are issued to indexed content – via the Vectara console or the Vectara API – are counted towards the query count.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "23",
+      "text": "What is the definition of account size in the pricing model? Account size is the sum of text size (measured in MB) within all corpora in the customer account, before any replication factor is applied.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "24",
+      "text": "How does billing work? For Growth plan users, Vectara’s free tier supports up to 15,000 queries per month and 50 MB of storage capacity. No credit card is required at signup and no billing will occur. For Growth plan users that require additional capacity bundles of queries and account size, a credit card is required. For Growth plan users, the Billing tab within the Vectara Console (https://console.vectara.com/login) contains invoice and payment history.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "25",
+      "text": "Which payment methods and currencies are accepted by Vectara? Vectara accepts payments made through a credit card. Vectara supports billing in United States Dollar (USD).",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "26",
+      "text": "Is there any commitment once I start paying for Vectara? For Vectara’s Growth plan, there is no commitment requirement.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "27",
+      "text": "What happens if I exceed my committed plan usage? Vectara users will receive a notification when they have consumed their monthly query allocation. Users will then get an option to buy additional capacity or wait until their account resets for the next month.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "28",
+      "text": "How do I switch from one plan to another? Some upgrade and downgrade functions can be performed directly within the Vectara Console (https://console.vectara.com/login). For any other requests, please reach out directly to sales@vectara.com.",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "29",
+      "text": "How can I change my account details and billing information? Account details and billing information can be accessed and changed from the Billing tab within the Vectara Console (https://console.vectara.com/login).",
+      "metadata_json": "{\"category\": \"Pricing\"}"
+    },
+    {
+      "id": "30",
+      "text": "How does Vectara handle and process personal and customer sensitive information? Vectara supports full client control over how data is preserved, including the support of a full deletion of customer data via API. Clients decide what data they transmit to the service and what data remains within the service, with the exception of billing and billing contact data.",
+      "metadata_json": "{\"category\": \"Security and Privacy\"}"
+    },
+    {
+      "id": "31",
+      "text": "Does Vectara implement any encryption standards for information processing? Vectara ensures sensitive data is encrypted and the keys are managed both logically and physically by the appropriate teams. Encryption at rest is AES 256-bit symmetric key encryption. Separate keys are managed per corpus, and access to keys is through an account master key managed on FIPS 140-2 compliant hardware. Vectara also provides the option of a customer managed account master key. Encryption in transit is TLS 1.3.",
+      "metadata_json": "{\"category\": \"Security and Privacy\"}"
+    },
+    {
+      "id": "32",
+      "text": "Does Vectara have a security program? Vectara has a documented security program that is audited periodically for major security program objectives, status of security program non conformities, and risk logs. The system architecture was designed to enable ready compliance with SOC 2 and ISO 27001 standards.",
+      "metadata_json": "{\"category\": \"Security and Privacy\"}"
+    },
+    {
+      "id": "33",
+      "text": "Does Vectara have a privacy policy? Vectara has a documented privacy policy that is reviewed periodically. Vectara’s privacy policy covers responsibilities under GDPR regulations. CCPA regulations are not applicable to Vectara. Vectara’s privacy policy (https://vectara.com/legal/privacy-policy/) can be found here.",
+      "metadata_json": "{\"category\": \"Security and Privacy\"}"
+    },
+    {
+      "id": "34",
+      "text": "Does Vectara have a disaster recovery plan? Vectara has policies and procedures for disaster recovery and backup. Vectara has established, documented, implemented, and maintained processes, procedures, and controls to ensure the required level of continuity for information security during an adverse situation. Information processing facilities, infrastructure, and application architecture are implemented with redundancy sufficient to meet and support high availability requirements.",
+      "metadata_json": "{\"category\": \"Security and Privacy\"}"
+    },
+    {
+      "id": "35",
+      "text": "How do I apply to be a Vectara partner? Please contact us at partners@vectara.com (partners@vectara.com).",
+      "metadata_json": "{\"category\": \"General\"}"
+    },
+    {
+      "id": "36",
+      "text": "I have a question that is not listed here. How can I get an answer? You can contact Vectara Support to get an answer to your question at support@vectara.com or https://support.vectara.com.",
+      "metadata_json": "{\"category\": \"General\"}"
+    }
+  ],
+  "title": "Vectara FAQs",
+  "metadataJson": "{\"orig-url\":\"https://vectara.com/faqs/\",\"creator\":\"Justin\"}"
+}

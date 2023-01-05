@@ -1,0 +1,10 @@
+1|what is the cost?|1@Visit our pricing page|1@has a usage-based pricing model|1@What is Vectara’s pricing model
+2|what can you do with vectara?|1@What are the use cases for Vectara
+3|data supported|1@Can I index from any data source|1@What file types does Vectara support|1@index data from any text document|1@supports PDF, Microsoft Word
+4|where does vectara run?|1@deployed on AWS|1@deployment options for Vectara
+5|how do I get help?|1@need any help with implementation
+6|how can I pay?|1@accepts payments made through a credit card
+7|is my data protected?|1@sensitive data is encrypted|1@Vectara’s privacy policy|1@ensure the required level of continuity for information security|1@Encryption at rest is AES 256-bit symmetric key encryption
+8|do you handle multiple languages?|1@index and search on in the world’s most commonly written 11 languages|1@Cross language search
+9|can this replace my existing search?|1@looking to add or replace a search
+10|how well does it scale?|1@Does Vectara have any scalability limits

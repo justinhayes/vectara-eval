@@ -1,0 +1,29 @@
+{
+  "file_match_avg_p_at_1": 0.5,
+  "file_match_avg_p_at_3": 0.4999999999999999,
+  "file_match_avg_p_at_5": 0.42000000000000004,
+  "file_match_avg_p_at_10": 0.30000000000000004,
+  "file_and_phrase_match_avg_p_at_1": 0.4,
+  "file_and_phrase_match_avg_p_at_3": 0.4666666666666666,
+  "file_and_phrase_match_avg_p_at_5": 0.36,
+  "file_and_phrase_match_avg_p_at_10": 0.21000000000000002,
+  "percent_first_file_match_in_top_1": 0.5,
+  "percent_first_file_match_in_top_3": 0.8,
+  "percent_first_file_match_in_top_5": 1.0,
+  "percent_first_file_match_in_top_10": 1.0,
+  "percent_first_file_and_phrase_match_in_top_1": 0.4,
+  "percent_first_file_and_phrase_match_in_top_3": 0.8,
+  "percent_first_file_and_phrase_match_in_top_5": 1.0,
+  "percent_first_file_and_phrase_match_in_top_10": 1.0
+}
+
+num_matches_on_file_top_1=[[0], [1], [0], [1], [1], [1], [1], [0], [0], [0]]
+num_matches_on_file_top_3=[[0, 0, 0], [1, 0, 1], [0, 0, 1], [1, 1, 1], [1, 1, 1], [1, 1, 0], [1, 1, 0], [0, 1, 0], [0, 0, 0], [0, 1, 0]]
+num_matches_on_file_top_5=[[0, 0, 0, 0, 1], [1, 0, 1, 1, 0], [0, 0, 1, 0, 0], [1, 1, 1, 0, 1], [1, 1, 1, 0, 0], [1, 1, 0, 0, 1], [1, 1, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 1], [0, 1, 0, 1, 0]]
+num_matches_on_file_top_10=[[0, 0, 0, 0, 1, 1, 0, 0, 0, 0], [1, 0, 1, 1, 0, 0, 0, 1, 0, 1], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0], [1, 1, 1, 0, 1, 0, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0, 0, 0, 0, 1], [1, 1, 0, 0, 1, 0, 1, 0, 1, 1], [1, 1, 0, 0, 0, 0, 0, 0, 0, 1], [0, 1, 0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 1, 0, 1, 0, 0, 0, 0, 0, 0]]
+num_matches_on_file_and_phrase_top_1=[0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
+num_matches_on_file_and_phrase_top_3=[0, 2, 1, 2, 3, 2, 2, 1, 0, 1]
+num_matches_on_file_and_phrase_top_5=[1, 2, 1, 3, 3, 2, 2, 1, 1, 2]
+num_matches_on_file_and_phrase_top_10=[2, 3, 1, 3, 3, 3, 2, 1, 1, 2]
+first_matches_on_file=[5, 1, 3, 1, 1, 1, 1, 2, 5, 2]
+first_matches_on_file_and_phrase=[5, 1, 3, 2, 1, 1, 1, 2, 5, 2]
