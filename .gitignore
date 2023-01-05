@@ -1,5 +1,5 @@
 # ignore all files in the results/ directory
-/results/*
+#/results/*
 
 # ignore IDE directory and files
 /.idea
