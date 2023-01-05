@@ -313,7 +313,7 @@ def compute_metrics(first_matches_on_file: [], first_matches_on_file_and_phrase:
 
     metrics = {}
 
-    print('num_matches_on_file_top_1=' + str(num_matches_on_file_top_1))
+    """print('num_matches_on_file_top_1=' + str(num_matches_on_file_top_1))
     print('num_matches_on_file_top_3=' + str(num_matches_on_file_top_3))
     print('num_matches_on_file_top_5=' + str(num_matches_on_file_top_5))
     print('num_matches_on_file_top_10=' + str(num_matches_on_file_top_10))
@@ -322,7 +322,7 @@ def compute_metrics(first_matches_on_file: [], first_matches_on_file_and_phrase:
     print('num_matches_on_file_and_phrase_top_5=' + str(num_matches_on_file_and_phrase_top_5))
     print('num_matches_on_file_and_phrase_top_10=' + str(num_matches_on_file_and_phrase_top_10))
     print('first_matches_on_file=' + str(first_matches_on_file))
-    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))
+    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))"""
 
     #p@k metrics
     metrics["file_match_avg_p_at_1"] = \
