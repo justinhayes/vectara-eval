@@ -202,7 +202,7 @@ def _get_query_json(customer_id: int, corpus_id: int, query_text: str):
     query_obj = {}
 
     query_obj["query"] = query_text
-    query_obj["num_results"] = 10
+    query_obj["num_results"] = 100
 
     corpus_key = {}
     corpus_key["customer_id"] = customer_id
@@ -315,16 +315,17 @@ def compute_metrics(num_matches_on_file_top_1:[[]], num_matches_on_file_top_3:[[
 
     metrics = {}
 
-    """print('num_matches_on_file_top_5=' + str(num_matches_on_file_top_5))
+    """
+    print('num_matches_on_file_top_1=' + str(num_matches_on_file_top_1))
+    print('num_matches_on_file_top_3=' + str(num_matches_on_file_top_3))
+    print('num_matches_on_file_top_5=' + str(num_matches_on_file_top_5))
     print('num_matches_on_file_top_10=' + str(num_matches_on_file_top_10))
     print('num_matches_on_file_and_phrase_top_1=' + str(num_matches_on_file_and_phrase_top_1))
     print('num_matches_on_file_and_phrase_top_3=' + str(num_matches_on_file_and_phrase_top_3))
     print('num_matches_on_file_and_phrase_top_5=' + str(num_matches_on_file_and_phrase_top_5))
     print('num_matches_on_file_and_phrase_top_10=' + str(num_matches_on_file_and_phrase_top_10))
     print('first_matches_on_file=' + str(first_matches_on_file))
-    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))
-    print('num_matches_on_file_top_1=' + str(num_matches_on_file_top_1))
-    print('num_matches_on_file_top_3=' + str(num_matches_on_file_top_3))"""
+    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))"""
 
     #Relevance @ K metrics for matches based only on identifying the target file.
     #Each of these metrics is the mean, across all test queries, of how many results in the top K represent
@@ -352,27 +353,35 @@ def compute_metrics(num_matches_on_file_top_1:[[]], num_matches_on_file_top_3:[[
     metrics["file_and_phrase_match_mean_r_at_10"] = \
         sum(map(lambda n: n / 10, num_matches_on_file_and_phrase_top_10)) / len(num_matches_on_file_and_phrase_top_10)
 
-    #First match metrics give the percentage of queries that had their first relevant match within the top K results.
-    #For example, percent_first_file_match_in_top_5=.8 means that 80% of the queries had the first relevant match
+    #Percent first match metrics give the percentage of queries that had their first relevant match within the top K results.
+    #For example, file_match_percent_first_match_in_top_5=.8 means that 80% of the queries had the first relevant match
     #(when considering only the target file), show up within the first 5 results.
-    #For example, percent_first_file_and_phrase_match_in_top_10=.7 means that 70% of the queries had the first relevant
-    #match (when considering both the target file and matching phrase), show up within the first 10 results.
-    metrics["percent_first_file_match_in_top_1"] = \
+    #For example, file_and_phrase_match_percent_first_match_in_top_10=.7 means that 70% of the queries had the first
+    #relevant match (when considering both the target file and matching phrase), show up within the first 10 results.
+    metrics["file_match_percent_first_match_in_top_1"] = \
         len([x for x in first_matches_on_file if 1<=x<=1]) / len(first_matches_on_file)
-    metrics["percent_first_file_match_in_top_3"] = \
+    metrics["file_match_percent_first_match_in_top_3"] = \
         len([x for x in first_matches_on_file if 1<=x<=3]) / len(first_matches_on_file)
-    metrics["percent_first_file_match_in_top_5"] = \
+    metrics["file_match_percent_first_match_in_top_5"] = \
         len([x for x in first_matches_on_file if 1<=x<=5]) / len(first_matches_on_file)
-    metrics["percent_first_file_match_in_top_10"] = \
+    metrics["file_match_percent_first_match_in_top_10"] = \
         len([x for x in first_matches_on_file if 1<=x<=10]) / len(first_matches_on_file)
-    metrics["percent_first_file_and_phrase_match_in_top_1"] = \
+    metrics["file_and_phrase_match_percent_first_match_in_top_1"] = \
         len([x for x in first_matches_on_file_and_phrase if 1<=x<=1]) / len(first_matches_on_file_and_phrase)
-    metrics["percent_first_file_and_phrase_match_in_top_3"] = \
+    metrics["file_and_phrase_match_percent_first_match_in_top_3"] = \
         len([x for x in first_matches_on_file_and_phrase if 1<=x<=3]) / len(first_matches_on_file_and_phrase)
-    metrics["percent_first_file_and_phrase_match_in_top_5"] = \
+    metrics["file_and_phrase_match_percent_first_match_in_top_5"] = \
         len([x for x in first_matches_on_file_and_phrase if 1<=x<=5]) / len(first_matches_on_file_and_phrase)
-    metrics["percent_first_file_and_phrase_match_in_top_10"] = \
+    metrics["file_and_phrase_match_percent_first_match_in_top_10"] = \
         len([x for x in first_matches_on_file_and_phrase if 1<=x<=10]) / len(first_matches_on_file_and_phrase)
+
+    #Mean Reciprocal Rank metrics. The reciprocal rank of a query response is the multiplicative inverse of the rank
+    #of the first correct answer: 1 for first place, 1⁄2 for second place, 1⁄3 for third place and so on.
+    #The mean reciprocal rank is the average of the reciprocal ranks of results for across all test queries.
+    metrics["file_match_mean_reciprocal_rank"] = \
+        sum(map(lambda n: 1 / n, first_matches_on_file)) / len(first_matches_on_file)
+    metrics["file_match_and_phrase_mean_reciprocal_rank"] = \
+        sum(map(lambda n: 1 / n, first_matches_on_file_and_phrase)) / len(first_matches_on_file_and_phrase)
 
     return metrics
 
@@ -397,8 +406,6 @@ def run_queries(customer_id: int, corpus_id: int, query_address: str, jwt_token:
 
     #Initialize arrays of size 'queries.length' to store the metrics for the queries
     #See compute_metrics() for information on the required structure of these variables
-    first_matches_on_file = [0] * len(queries)
-    first_matches_on_file_and_phrase = [0] * len(queries)
     num_matches_on_file_top_1 = [[0] * 1 for i in range(len(queries))]
     num_matches_on_file_top_3 = [[0] * 3 for i in range(len(queries))]
     num_matches_on_file_top_5 = [[0] * 5 for i in range(len(queries))]
@@ -408,6 +415,9 @@ def run_queries(customer_id: int, corpus_id: int, query_address: str, jwt_token:
     num_matches_on_file_and_phrase_top_3 = [0] * len(queries)
     num_matches_on_file_and_phrase_top_5 = [0] * len(queries)
     num_matches_on_file_and_phrase_top_10 = [0] * len(queries)
+
+    first_matches_on_file = [0] * len(queries)
+    first_matches_on_file_and_phrase = [0] * len(queries)
 
     #Run each query and record the metrics
     for this_query in queries:
