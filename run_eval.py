@@ -277,19 +277,16 @@ def strings_overlap(str1: str, str2: str):
 
     return False
 
-def compute_metrics(first_matches_on_file: [], first_matches_on_file_and_phrase:[], num_matches_on_file_top_1:[[]],
-                              num_matches_on_file_top_3:[[]], num_matches_on_file_top_5:[[]], num_matches_on_file_top_10:[[]],
-                              num_matches_on_file_and_phrase_top_1:[], num_matches_on_file_and_phrase_top_3:[],
-                              num_matches_on_file_and_phrase_top_5:[], num_matches_on_file_and_phrase_top_10:[]):
+def compute_metrics(num_matches_on_file_top_1:[[]], num_matches_on_file_top_3:[[]],
+                    num_matches_on_file_top_5:[[]], num_matches_on_file_top_10:[[]],
+                    num_matches_on_file_and_phrase_top_1:[], num_matches_on_file_and_phrase_top_3:[],
+                    num_matches_on_file_and_phrase_top_5:[], num_matches_on_file_and_phrase_top_10:[],
+                    first_matches_on_file: [], first_matches_on_file_and_phrase:[]):
     """ Computes various metrics quantifying how this test run executed. Each input is an array that contains
      raw data corresponding to one metric for each query. Each of these arrays have a length the same as the
      total number of queries that were executed in the test.
 
     Args:
-        first_matches_on_file: array of ints where each value is the result number where
-            that query's first match (based only on the file) was found
-        first_matches_on_file_and_phrase: array of ints where each value is the result number where
-            that query's first match (based on both the file and the phrase) was found
         num_matches_on_file_top_1: array of arrays of size 1 where each item is 0 if the corresponding
             result number for that query was a match (based only on the file)
         num_matches_on_file_top_3: array of arrays of size 3 where each item is 0 if the corresponding
@@ -306,6 +303,11 @@ def compute_metrics(first_matches_on_file: [], first_matches_on_file_and_phrase:
             the top 5 for that query that represented a match (based on both the file and the phrase)
         num_matches_on_file_and_phrase_top_10: array of ints where each item is the number of results in
             the top 10 for that query that represented a match (based on both the file and the phrase)
+        first_matches_on_file: array of ints where each value is the result number where
+            that query's first match (based only on the file) was found
+        first_matches_on_file_and_phrase: array of ints where each value is the result number where
+            that query's first match (based on both the file and the phrase) was found
+
 
     Returns:
         Dict where each item represents a metric type and its corresponding value
@@ -313,37 +315,48 @@ def compute_metrics(first_matches_on_file: [], first_matches_on_file_and_phrase:
 
     metrics = {}
 
-    """print('num_matches_on_file_top_1=' + str(num_matches_on_file_top_1))
-    print('num_matches_on_file_top_3=' + str(num_matches_on_file_top_3))
-    print('num_matches_on_file_top_5=' + str(num_matches_on_file_top_5))
+    """print('num_matches_on_file_top_5=' + str(num_matches_on_file_top_5))
     print('num_matches_on_file_top_10=' + str(num_matches_on_file_top_10))
     print('num_matches_on_file_and_phrase_top_1=' + str(num_matches_on_file_and_phrase_top_1))
     print('num_matches_on_file_and_phrase_top_3=' + str(num_matches_on_file_and_phrase_top_3))
     print('num_matches_on_file_and_phrase_top_5=' + str(num_matches_on_file_and_phrase_top_5))
     print('num_matches_on_file_and_phrase_top_10=' + str(num_matches_on_file_and_phrase_top_10))
     print('first_matches_on_file=' + str(first_matches_on_file))
-    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))"""
+    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))
+    print('num_matches_on_file_top_1=' + str(num_matches_on_file_top_1))
+    print('num_matches_on_file_top_3=' + str(num_matches_on_file_top_3))"""
 
-    #p@k metrics
-    metrics["file_match_avg_p_at_1"] = \
+    #Relevance @ K metrics for matches based only on identifying the target file.
+    #Each of these metrics is the mean, across all test queries, of how many results in the top K represent
+    #a relevant match. For example, file_match_mean_r_at_5=.6 indicates that across all test queries, the average
+    #number of relevant matches within the first 5 search results was 3 (i.e. 60% of the top 5 results were relevant).
+    metrics["file_match_mean_r_at_1"] = \
         sum(map(lambda n: sum(n) / 1, num_matches_on_file_top_1)) / len(num_matches_on_file_top_1)
-    metrics["file_match_avg_p_at_3"] = \
+    metrics["file_match_mean_r_at_3"] = \
         sum(map(lambda n: sum(n) / 3, num_matches_on_file_top_3)) / len(num_matches_on_file_top_3)
-    metrics["file_match_avg_p_at_5"] = \
+    metrics["file_match_mean_r_at_5"] = \
         sum(map(lambda n: sum(n) / 5, num_matches_on_file_top_5)) / len(num_matches_on_file_top_5)
-    metrics["file_match_avg_p_at_10"] = \
+    metrics["file_match_mean_r_at_10"] = \
         sum(map(lambda n: sum(n) / 10, num_matches_on_file_top_10)) / len(num_matches_on_file_top_10)
 
-    metrics["file_and_phrase_match_avg_p_at_1"] = \
+    #Relevance @ K metrics for matches based on identifying the target file and also the relevant phrase.
+    #Each of these metrics is the mean, across all test queries, of how many results in the top K represent a relevant
+    #match. For example, file_and_phrase_match_mean_r_at_10=.4 indicates that across all test queries, the average
+    #number of relevant matches within the first 10 search results was 4 (i.e. 40% of the top 10 results were relevant).
+    metrics["file_and_phrase_match_mean_r_at_1"] = \
         sum(map(lambda n: n / 1, num_matches_on_file_and_phrase_top_1)) / len(num_matches_on_file_and_phrase_top_1)
-    metrics["file_and_phrase_match_avg_p_at_3"] = \
+    metrics["file_and_phrase_match_mean_r_at_3"] = \
         sum(map(lambda n: n / 3, num_matches_on_file_and_phrase_top_3)) / len(num_matches_on_file_and_phrase_top_3)
-    metrics["file_and_phrase_match_avg_p_at_5"] = \
+    metrics["file_and_phrase_match_mean_r_at_5"] = \
         sum(map(lambda n: n / 5, num_matches_on_file_and_phrase_top_5)) / len(num_matches_on_file_and_phrase_top_5)
-    metrics["file_and_phrase_match_avg_p_at_10"] = \
+    metrics["file_and_phrase_match_mean_r_at_10"] = \
         sum(map(lambda n: n / 10, num_matches_on_file_and_phrase_top_10)) / len(num_matches_on_file_and_phrase_top_10)
 
-    #first match metrics
+    #First match metrics give the percentage of queries that had their first relevant match within the top K results.
+    #For example, percent_first_file_match_in_top_5=.8 means that 80% of the queries had the first relevant match
+    #(when considering only the target file), show up within the first 5 results.
+    #For example, percent_first_file_and_phrase_match_in_top_10=.7 means that 70% of the queries had the first relevant
+    #match (when considering both the target file and matching phrase), show up within the first 10 results.
     metrics["percent_first_file_match_in_top_1"] = \
         len([x for x in first_matches_on_file if 1<=x<=1]) / len(first_matches_on_file)
     metrics["percent_first_file_match_in_top_3"] = \
@@ -471,11 +484,12 @@ def run_queries(customer_id: int, corpus_id: int, query_address: str, jwt_token:
 
         print('\n')
 
-    #Create 'metrics' dict to store aggregate query metrics
-    metrics = compute_metrics(first_matches_on_file, first_matches_on_file_and_phrase, num_matches_on_file_top_1,
-                              num_matches_on_file_top_3, num_matches_on_file_top_5, num_matches_on_file_top_10,
+    #Create 'metrics' dict to store aggregated query metrics
+    metrics = compute_metrics(num_matches_on_file_top_1, num_matches_on_file_top_3,
+                              num_matches_on_file_top_5, num_matches_on_file_top_10,
                               num_matches_on_file_and_phrase_top_1, num_matches_on_file_and_phrase_top_3,
-                              num_matches_on_file_and_phrase_top_5, num_matches_on_file_and_phrase_top_10)
+                              num_matches_on_file_and_phrase_top_5, num_matches_on_file_and_phrase_top_10,
+                              first_matches_on_file, first_matches_on_file_and_phrase)
 
     return metrics
 
@@ -502,7 +516,7 @@ if __name__ == "__main__":
     parser.add_argument("--auth-url",  required=True,
                         help="The cognito auth url for this customer.")
     parser.add_argument("--bundle", help="Which test bundle you want to use for the evaluation.",
-                        default="transcript-search")
+                        default="app-search")
 
     args = parser.parse_args()
 
