@@ -15,7 +15,7 @@ python3 run_eval.py \
     --app-client-id "<COPY FROM VECTARA CONSOLE>" \
     --app-client-secret "<COPY FROM VECTARA CONSOLE>" \
     --customer-id <COPY FROM VECTARA CONSOLE> \
-    --bundle <ONE OF [doc-search | faq-search | transcript-search]> \
+    --bundle <ONE OF [doc-search | faq-search | app-search]> \
     --corpus-id <COPY FROM VECTARA CONSOLE>
 ```
 
