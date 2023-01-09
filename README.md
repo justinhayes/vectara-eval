@@ -31,3 +31,6 @@ will reflect that. Put another way, do not read anything into the relevance metr
 That said, if you create your own bundle for testing purposes, you should select your test queries and specify the 
 corresponding matches such that they **are** exhaustive of all relevant matches. Doing that will ensure that you get 
 an accurate understanding of what type of relevance Vectara can provide for your use case.
+
+Disclaimers:
+* The data in the doc-search bundle was copied from the UNFCC secretariat website (https://unfccc.int/documents, https://unfccc.int/this-site/terms-of-use). The data files are documents submitted to the UN related to the initiatives different countries have related to climate change emissions reductions.
