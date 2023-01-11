@@ -19,8 +19,13 @@ python3 run_eval.py \
     --corpus-id <COPY FROM VECTARA CONSOLE>
 ```
 
-If the corpus-id argument is included then that tells the script to not create a new corpus and upload all the data 
-files for this bundle, and instead to run the searches against the existing corpus.
+If the corpus-id argument **is not included**, then the script will create a new corpus and upload all of the files in 
+that bundle's data directory. This process can take up to several minutes if the data set is large. 
+If the corpus-id argument **is included** then that tells the script to **not** create a new corpus and upload all the 
+data files for this bundle, and instead to run the searches against the existing corpus.
+
+The run_eval.py file has several comments which explain many aspects of the project, such as additional information 
+on arguments, the format of the 'queries.csv' files, and how to interpret the metrics that are generated.
 
 Please note that the identified matches for each test query in the queries.csv files are there for demonstration
 purposes only. They were chosen to illustrate the concepts related to search system evaluations.
