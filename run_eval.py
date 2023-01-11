@@ -325,7 +325,8 @@ def compute_metrics(num_matches_on_file_top_1:[[]], num_matches_on_file_top_3:[[
     print('num_matches_on_file_and_phrase_top_5=' + str(num_matches_on_file_and_phrase_top_5))
     print('num_matches_on_file_and_phrase_top_10=' + str(num_matches_on_file_and_phrase_top_10))
     print('first_matches_on_file=' + str(first_matches_on_file))
-    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))"""
+    print('first_matches_on_file_and_phrase=' + str(first_matches_on_file_and_phrase))
+    """
 
     #Relevance @ K metrics for matches based only on identifying the target file.
     #Each of these metrics is the mean, across all test queries, of how many results in the top K represent
@@ -462,10 +463,11 @@ def run_queries(customer_id: int, corpus_id: int, query_address: str, jwt_token:
                 response_ct += 1
                 snippet = this_response["text"]
                 doc_id = doc_ids[this_response["documentIndex"]]
-                print("  Response " + str(response_ct) + ": [" + str(doc_id) + "]. " + str(snippet))
+                #print("  Response " + str(response_ct) + ": [" + str(doc_id) + "]. " + str(snippet))
 
                 if match["file-num"] == doc_id:
-                    print("    Found file match for query " + str(this_query["num"]) + " at spot " + str(response_ct))
+                    print("  Found file match for query " + str(this_query["num"]) + " at response spot " + str(response_ct))
+                    print("    Response " + str(response_ct) + ": [" + str(doc_id) + "]. " + str(snippet))
                     #Record counts for p@k metrics
                     if response_ct <= 1:
                         num_matches_on_file_top_1[this_query["num"]-1][response_ct-1] = 1
@@ -481,7 +483,8 @@ def run_queries(customer_id: int, corpus_id: int, query_address: str, jwt_token:
                         found_match_on_file = True
 
                 if match["file-num"] == doc_id and strings_overlap(snippet, match["phrase"]):
-                    print("    Found file and phrase match for query " + str(this_query["num"]) + " at spot " + str(response_ct))
+                    print("  Found file and phrase match for query " + str(this_query["num"]) + " at response spot " + str(response_ct))
+                    print("    Response " + str(response_ct) + ": [" + str(doc_id) + "]. " + str(snippet))
                     #Record counts for p@k metrics
                     num_matches_on_file_and_phrase_top_1[this_query["num"]-1] += (1 if response_ct <= 1 else 0)
                     num_matches_on_file_and_phrase_top_3[this_query["num"]-1] += (1 if response_ct <= 3 else 0)
