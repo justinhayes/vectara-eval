@@ -8,7 +8,6 @@ import datetime
 import json
 import requests
 import os
-import sys
 from authlib.integrations.requests_client import OAuth2Session
 
 def _get_jwt_token(auth_url: str, app_client_id: str, app_client_secret: str):
