@@ -34,3 +34,4 @@ an accurate understanding of what type of relevance Vectara can provide for your
 
 Disclaimers:
 * The data in the doc-search bundle was copied from the UNFCC secretariat website (https://unfccc.int/documents, https://unfccc.int/this-site/terms-of-use). The data files are documents submitted to the UN related to the initiatives different countries have related to climate change emissions reductions.
+* The data in the app-search bundle comes from the OpinRank data set (https://github.com/kavgan/OpinRank, http://kavita-ganesan.com/entity-ranking-data/#.Y74GmeLMKOA). Ganesan, K. A., and C. X. Zhai, “Opinion-Based Entity Ranking“, Information Retrieval.
