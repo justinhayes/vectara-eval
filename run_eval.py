@@ -525,15 +525,20 @@ if __name__ == "__main__":
     parser.add_argument("--app-client-id",  required=True,
                         help="This app client should have enough rights.")
     parser.add_argument("--app-client-secret", required=True)
-    parser.add_argument("--auth-url",  required=True,
-                        help="The cognito auth url for this customer.")
+    parser.add_argument("--auth-url",  default="",
+                        help="The cognito auth url for this customer. If not set then this will "
+                             "be constructed using the customer-id.")
     parser.add_argument("--bundle", help="Which test bundle you want to use for the evaluation.",
                         default="app-search")
 
     args = parser.parse_args()
 
     if args:
-        token = _get_jwt_token(args.auth_url, args.app_client_id, args.app_client_secret)
+        auth_url = args.auth_url
+        if auth_url == "":
+            auth_url = f"https://vectara-prod-{args.customer_id}.auth.us-west-2.amazoncognito.com"
+
+        token = _get_jwt_token(auth_url, args.app_client_id, args.app_client_secret)
 
         if token:
             # Create a corpus and upload the test data if we were not given a corpus ID
